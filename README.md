@@ -7,8 +7,7 @@ Automate UI flow for https://www.saucedemo.com/
 
 ## Project Description
 This test automation project is developed in Python 3.7.
-API testing framework is developed using python request module to send GET , POST request , jsonschema to validate json response from api Following APIs are tested
-Web UI testing is developed using selenium web driver and page object model to separate page action and locators from test flows .
+API testing framework is developed using python request module to send GET , POST request , jsonschema to validate json response. Web UI testing is developed using selenium webdriver and page object model to separate page actions and locators from test flows.
 
 ## Test Coverage
 
