@@ -11,7 +11,7 @@ class MoviesTests(TestCase):
     @classmethod
     def setUpClass(cls):
         cls.movies_api = MoviesAPI()
-        cls.api_key = 'a0064fa96aef465850fb9ec67c6e0136'
+        cls.api_key = 'API_KEY' # Specify your api_key for themoviedb here
 
     def test_get_movie_200(self):
         """

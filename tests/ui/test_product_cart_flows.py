@@ -52,7 +52,7 @@ class ProductCartTests(BaseUITestCase):
             4. Click on Add to cart button and go back to product list
             5. Go to Cart view
             Test Verification - Verify above added products found in cart list
-            (Note and Enhancement - More assert and detail verifcation can be added with step 2 and step 4 to
+            (Note and Enhancement - More assert and detail verification can be added with step 2 and step 4 to
             check correct product detail is viewed on click)
         """
         self.product_list.click_product_onesie_details()
