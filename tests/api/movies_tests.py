@@ -9,8 +9,7 @@ from jsonschema import validate
 
 class MoviesTests(TestCase):
     """
-    Test class includes API tests for Movies section
-
+    Test class includes API tests for Movies (https://developers.themoviedb.org/3/movies/get-movie-details)
     """
 
     @classmethod

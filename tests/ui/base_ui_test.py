@@ -3,6 +3,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
+from libs.utils.config_management import AutomationConfig
 from libs.utils.custom_logger import CustomLogger
 
 
@@ -12,10 +13,12 @@ class BaseUITestCase(unittest.TestCase):
     def setUpClass(cls):
         CustomLogger.printStep("Class Setup")
         cls.log = CustomLogger()
+        cls.automationConfig = AutomationConfig()
+        cls.browser = cls.automationConfig.parser.get('Browser', 'browser')
 
     def setUp(self):
         CustomLogger.printStep("Test Setup Started - Launching browser ")
-        test_browser = "firefox"  # "chrome"
+        test_browser = self.browser
         if test_browser == "firefox":
             firefox_capabilities = DesiredCapabilities.FIREFOX
             firefox_capabilities['marionette'] = True
