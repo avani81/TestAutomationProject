@@ -1,11 +1,13 @@
 import requests
 from libs.api.authentication_api import AuthenticationAPI
+from libs.utils.config_management import AutomationConfig
 
 
 class MoviesAPI:
 
     def __init__(self):
-        self.base_url = 'https://api.themoviedb.org/'
+        self.automationConfig = AutomationConfig()
+        self.base_url = self.automationConfig.parser.get('System', 'base_url')
         self.authenticate_api = AuthenticationAPI()
 
     def get_latest_movies(self, api_key):
