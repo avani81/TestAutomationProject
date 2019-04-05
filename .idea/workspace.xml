@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f30aed55-fa80-441a-a973-7efad83a1c99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/libs/ui/pageobjects/home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/ui/pageobjects/result_list_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/test_moviedb_site.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/test_moviedb_site_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/test_moviedb_site_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ui/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ui/locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ui/pageobjects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ui/pageobjects/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ui/pageobjects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ui/pageobjects/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ui/pageobjects/product_list_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/automation_configs.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tests/config/automation_configs.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ui/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ui/test_main_site.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ui/test_product_cart_flows.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/api/movies_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="133" column="37" lean-forward="true" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/ui/test_moviedb_site.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="39" />
+              <folding>
+                <element signature="e#2#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/ui/test_moviedb_site_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#6#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/config/automation_configs.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/ui/locators/locators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="28" column="15" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/ui/base_ui_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/ui/pageobjects/home_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/ui/pageobjects/base_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-542">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/ui/pageobjects/login_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-392">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="23" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests/ui/seleniumsetup.py" />
+        <option value="$PROJECT_DIR$/libs/utils/custom_logger.py" />
+        <option value="$PROJECT_DIR$/tests/ui/login_test.py" />
+        <option value="$PROJECT_DIR$/libs/ui/pageobjects/product_list_page.py" />
+        <option value="$PROJECT_DIR$/tests/ui/test_add_to_cart_flows.py" />
+        <option value="$PROJECT_DIR$/libs/api/process_request_respose.py" />
+        <option value="$PROJECT_DIR$/libs/api/session_api.py" />
+        <option value="$PROJECT_DIR$/libs/utils/process_request_respose.py" />
+        <option value="$PROJECT_DIR$/tests/api/TestSampleAPIs.py" />
+        <option value="$PROJECT_DIR$/libs/api/movies_schemas.py" />
+        <option value="$PROJECT_DIR$/libs/api/authentication_api.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/tests/ui/test_product_cart_flows.py" />
+        <option value="$PROJECT_DIR$/tests/api/movies_latests_tests.py" />
+        <option value="$PROJECT_DIR$/tests/config/automation.cfg" />
+        <option value="$PROJECT_DIR$/tests/config/Automation.ini" />
+        <option value="$PROJECT_DIR$/tests/config/config_management.py" />
+        <option value="$PROJECT_DIR$/tests/ui/base_ui_test.py" />
+        <option value="$PROJECT_DIR$/libs/utils/config_management.py" />
+        <option value="$PROJECT_DIR$/libs/api/movies_api.py" />
+        <option value="$PROJECT_DIR$/tests/api/test_github_apis.py" />
+        <option value="$PROJECT_DIR$/tests/ui/loginTestcase.py" />
+        <option value="$PROJECT_DIR$/tests/ui/test_main_site.py" />
+        <option value="$PROJECT_DIR$/tests/api/movies_tests.py" />
+        <option value="$PROJECT_DIR$/libs/ui/pageobjects/base_page.py" />
+        <option value="$PROJECT_DIR$/libs/ui/locators/locators.py" />
+        <option value="$PROJECT_DIR$/tests/ui/test_moviedb_site_search.py" />
+        <option value="$PROJECT_DIR$/libs/ui/pageobjects/result_list_page.py" />
+        <option value="$PROJECT_DIR$/tests/ui/test_moviedb_site.py" />
+        <option value="$PROJECT_DIR$/libs/ui/pageobjects/home_page.py" />
+        <option value="$PROJECT_DIR$/libs/ui/pageobjects/login_page.py" />
+        <option value="$PROJECT_DIR$/tests/config/automation_configs.ini" />
+        <option value="$PROJECT_DIR$/tests/ui/test_moviedb_site_login.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="44" />
+    <option name="width" value="1400" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="locators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationToptal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationToptal" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/config" />
+      <recent name="$PROJECT_DIR$/libs/utils" />
+      <recent name="$PROJECT_DIR$/tests/browser" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_moviedb_site_login.UserLoginTests.test_user_login">
+    <configuration name="Unittests for test_moviedb_site.MoviedbTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_moviedb_site.MoviedbTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_moviedb_site_login.UserLoginTests.test_user_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_moviedb_site_login.UserLoginTests.test_user_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_moviedb_site_search.MovieDBSiteTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_moviedb_site_search.MovieDBSiteTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_movie_title" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_moviedb_site_search.MovieDBSiteTests.test_search_movie_title&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_tv_show_title" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_moviedb_site_search.MovieDBSiteTests.test_search_tv_show_title&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for test_moviedb_site.MoviedbTests" />
+      <item itemvalue="Python tests.Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_movie_title" />
+      <item itemvalue="Python tests.Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_tv_show_title" />
+      <item itemvalue="Python tests.Unittests for test_moviedb_site_search.MovieDBSiteTests" />
+      <item itemvalue="Python tests.Unittests for test_moviedb_site_login.UserLoginTests.test_user_login" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_moviedb_site_login.UserLoginTests.test_user_login" />
+        <item itemvalue="Python tests.Unittests for test_moviedb_site.MoviedbTests" />
+        <item itemvalue="Python tests.Unittests for test_moviedb_site_search.MovieDBSiteTests" />
+        <item itemvalue="Python tests.Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_tv_show_title" />
+        <item itemvalue="Python tests.Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_movie_title" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f30aed55-fa80-441a-a973-7efad83a1c99" name="Default Changelist" comment="" />
+      <created>1551319008419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551319008419</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_moviedb_site_search_MovieDBSiteTests_test_search_movie_title - 2019.04.04 at 13h 32m 47s.xml">
+      <configuration name="Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_movie_title" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_search_MovieDBSiteTests_test_search_movie_title - 2019.04.04 at 13h 33m 54s.xml">
+      <configuration name="Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_movie_title" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_search_MovieDBSiteTests_test_search_tv_show_title - 2019.04.04 at 13h 40m 50s.xml">
+      <configuration name="Unittests for test_moviedb_site_search.MovieDBSiteTests.test_search_tv_show_title" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_search_MovieDBSiteTests - 2019.04.04 at 13h 47m 42s.xml">
+      <configuration name="Unittests for test_moviedb_site_search.MovieDBSiteTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_MoviedbTests - 2019.04.04 at 13h 52m 33s.xml">
+      <configuration name="Unittests for test_moviedb_site.MoviedbTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_login_UserLoginTests_test_user_login - 2019.04.04 at 17h 00m 15s.xml">
+      <configuration name="Unittests for test_moviedb_site_login.UserLoginTests.test_user_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_login_UserLoginTests_test_user_login - 2019.04.04 at 17h 01m 02s.xml">
+      <configuration name="Unittests for test_moviedb_site_login.UserLoginTests.test_user_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_login_UserLoginTests_test_user_login - 2019.04.04 at 17h 06m 21s.xml">
+      <configuration name="Unittests for test_moviedb_site_login.UserLoginTests.test_user_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_login_UserLoginTests_test_user_login - 2019.04.04 at 17h 06m 51s.xml">
+      <configuration name="Unittests for test_moviedb_site_login.UserLoginTests.test_user_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_moviedb_site_login_UserLoginTests_test_user_login - 2019.04.04 at 17h 10m 25s.xml">
+      <configuration name="Unittests for test_moviedb_site_login.UserLoginTests.test_user_login" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="44" width="1400" height="772" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49712643" visible="true" weight="0.3683829" />
+      <window_info id="Structure" order="1" sideWeight="0.50287354" side_tool="true" weight="0.24945612" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4882353" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37941176" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/common/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ui/test_add_to_cart_flows.py" />
+    <entry file="file://$PROJECT_DIR$/tests/ui/seleniumsetup.py" />
+    <entry file="file://$PROJECT_DIR$/libs/api/session_api.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/utils/process_request_respose.py" />
+    <entry file="file://$PROJECT_DIR$/tests/api/TestSampleAPIs.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1217" column="17" selection-start-line="1217" selection-start-column="17" selection-end-line="1217" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ui/test_product_cart_flows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/config/automation.cfg" />
+    <entry file="file://$PROJECT_DIR$/libs/utils/config_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+          <folding>
+            <element signature="e#2#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/utils/custom_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/api/test_github_apis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/api/movies_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/api/authentication_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/api/movies_schemas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ui/loginTestcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ui/test_main_site.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="953">
+          <caret line="73" column="27" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="73" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ui/pageobjects/product_list_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" lean-forward="true" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ui/test_moviedb_site.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#2#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ui/pageobjects/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ui/pageobjects/result_list_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ui/pageobjects/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-542">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ui/test_moviedb_site_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ui/locators/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/config/automation_configs.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ui/pageobjects/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ui/test_moviedb_site_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ui/base_ui_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/api/movies_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="133" column="37" lean-forward="true" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,7 +1,8 @@
 import time
 
+
 from libs.ui.pageobjects.base_page import BasePage, IncorrectPageException
-from libs.ui.locators.locators import LoginPageLocators, ProductPageLocators
+from libs.ui.locators.locators import LoginPageLocators, HomePageLocators
 
 
 class LoginPage(BasePage):
@@ -19,6 +20,9 @@ class LoginPage(BasePage):
         """
         try:
             LoginPage.find_one_element(self, LoginPageLocators.LOGIN_BUTTON)
+            # if LoginPage.get_page_title()  == 'Login — The Movie Database (TMDb)':
+            #     raise IncorrectPageException
+
 
         except BaseException:
             raise IncorrectPageException
@@ -55,14 +59,5 @@ class LoginPage(BasePage):
         self.wait_for_element_visibility(5, LoginPageLocators.LOGIN_BUTTON)
         self.click_button(3, LoginPageLocators.LOGIN_BUTTON)
         time.sleep(2)
-        return self.driver
+        return self.driver # transfer to Page object of profile screen
 
-    def click_product_one(self):
-        # ProductListPage.move_to_element(self,locator=ProductPageLocators.PRODUCT_ONE)
-        print("in here")
-        #self.click_on_text("Sauce Labs Onesie")
-        # ProductListPage.wait_for_element_visibility(self,locator=ProductPageLocators.PRODUCT_ONE)
-
-        self.click_button(wait_time=2, locator=ProductPageLocators.MENU_BUTTON)
-        time.sleep(6)
-        print("in here 1")

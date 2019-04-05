@@ -62,6 +62,9 @@ class BasePage:
     def get_page_title(self):
         return self.driver.title
 
+    def get_page_url(self):
+        return self.driver.current_url
+
     def get_text(self, locator):
         value = self.wait_for_element_visibility(2, locator).text
         return value

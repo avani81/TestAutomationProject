@@ -7,41 +7,25 @@ class TestSite:
 
 class LoginPageLocators:
     """Locators for LOGIN PAGE"""
-    USERNAME_TEXTBOX = (By.CSS_SELECTOR, "#user-name")
-    PASSWORD_TEXTBOX = (By.CSS_SELECTOR, "#password")
-    LOGIN_BUTTON = (
-        By.CSS_SELECTOR,
-        "#login_button_container > div > form > input.login-button")
-    LOGIN_ERROR_TEXT = (By.CLASS_NAME, 'error-button')
+    LOGIN_BUTTON = (By.XPATH, "//input[@class='k-button k-primary']")
+    PASSWORD_TEXTBOX = (By.XPATH, "//input[@id='password']")
+    USERNAME_TEXTBOX = (By.XPATH, "//input[@id='username']")
 
 
-class ProductPageLocators:
-    """ Product list page locators """
-    CART_BUTTON = (By.ID, 'shopping_cart_container')
-    MENU_BUTTON = (
-        By.CSS_SELECTOR,
-        "#menu_button_container > div > div:nth-child(3) > div > button")
+class HomePageLocators:
+    """ HomePage Locators - Main top user_menu links """
 
-    PRODUCT_LABEL = (By.CSS_SELECTOR, "#inventory_filter_container > div")
-    PAGETITLE_LABEL = (By.CSS_SELECTOR, "#header_container > div.header_label")
-
-    PRODUCT_ONE = (
-        By.XPATH,
-        "//div[contains(., 'Sauce Labs Onesie') and @class='inventory_item_name']")
-    PRODUCT_TWO = (
-        By.XPATH,
-        "//div[contains(., 'Sauce Labs Bike Light') and @class='inventory_item_name']")
-    PRODUCT_ONE_ADD_CART_BUTTON = (
-        By.CSS_SELECTOR,
-        "#inventory_container > div > div:nth-child(5) > div.pricebar > button")
-    PRODUCT_TWO_ADD_CART_BUTTON = (
-        By.CSS_SELECTOR,
-        "#inventory_container > div > div:nth-child(2) > div.pricebar > button")
+    DISCOVER_LINK = (By.XPATH,"//a[@href='/discover' and text()='Discover']")
+    LOGIN_LINK = (By.XPATH, "//li//a[@href='/login' and text()='Login']")
+    MOVIES_LINK =(By.XPATH,"//a[@href='/movie' and text()='Movies']")
+    PEOPLE_LINK = (By.XPATH, "//a[@href='/person' and text()='People']")
+    SEARCH_BAR_TEXTBOX = (By.XPATH,"//input[@id='search_v4']")
+    SIGNUP_LINK = (By.XPATH, "//li//a[@href='/account/signup' and text()='Sign Up']")
+    TV_SHOWS_LINK = (By.XPATH, "//a[@href='/tv' and text()='TV Shows']")
+    PAGE_SUBTITLE_H2 = (By.XPATH,"//h2")
 
 
-class ProductDetailsPageLocators:
-    """ Product details Page locators"""
-    ADD_TO_CART_BUTTON = (
-        By.CSS_SELECTOR,
-        "#inventory_item_container > div > div > div > button")
-    BACK_BUTTON = (By.CSS_SELECTOR, '#inventory_item_container > div > button')
+class ResultsPageLocators:
+    RESULT_GRID = (By.XPATH, "//div[@class='flex']//a")
+    RESULT_TITLE = (By.ID,"movie_results") # //h2[@id='movie_results']
+
