@@ -1,10 +1,6 @@
 from selenium.webdriver.common.by import By
 
 
-class TestSite:
-    URL = "https://www.saucedemo.com/"
-
-
 class LoginPageLocators:
     """Locators for LOGIN PAGE"""
     LOGIN_BUTTON = (By.XPATH, "//input[@class='k-button k-primary']")

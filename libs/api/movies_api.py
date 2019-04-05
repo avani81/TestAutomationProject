@@ -69,3 +69,4 @@ class MoviesAPI:
         payload = {'api_key': api_key, 'language': 'en-US'}
         resp = requests.request(method='GET', url=url, params=payload)
         return resp
+

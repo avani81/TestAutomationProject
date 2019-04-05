@@ -16,3 +16,4 @@ class AuthenticationAPI:
     def get_session_id(self):
         # TODO - If more time permits
         pass
+

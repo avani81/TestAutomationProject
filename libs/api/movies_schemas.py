@@ -1,6 +1,8 @@
 
-
 class MovieSchema:
+    """
+    This class includes movie Schema for response validation
+    """
 
     error_code_status_schema = {
         "type": "object",
