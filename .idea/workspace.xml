@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f30aed55-fa80-441a-a973-7efad83a1c99" name="Default Changelist" comment="" />
+    <list default="true" id="f30aed55-fa80-441a-a973-7efad83a1c99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/api/authentication_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/api/authentication_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/api/movies_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/api/movies_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/api/movies_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/api/movies_schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ui/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ui/locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/utils/custom_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/utils/custom_logger.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/config/automation_configs.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="3" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -28,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libs/ui/locators/locators.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -631,17 +638,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/config/automation_configs.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libs/ui/locators/locators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/config/automation_configs.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="3" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
